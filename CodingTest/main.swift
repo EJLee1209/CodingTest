@@ -47,3 +47,28 @@ import Foundation
 
 //https://www.acmicpc.net/problem/2480
 //Q2480.solution()
+
+//MARK: - 반복문
+//https://www.acmicpc.net/problem/2739
+//Q2739.solution()
+
+//https://www.acmicpc.net/problem/10950
+//Q10950.solution()
+
+//https://www.acmicpc.net/problem/8393
+//Q8393.solution()
+
+//https://www.acmicpc.net/problem/25304
+//Q25304.solution()
+
+//https://www.acmicpc.net/problem/25314
+//Q25314.solution()
+
+//https://www.acmicpc.net/problem/15552
+//Q2438.solution()
+
+//https://www.acmicpc.net/problem/2439
+//Q2439.solution()
+
+//https://www.acmicpc.net/problem/10952
+Q10952.solution()
