@@ -13,7 +13,7 @@ class Q10952{
             if input == [0,0] {
                 break
             }
-            print(input[0]+input[1])
+            print(input.reduce(0, +))
         }
     }
 }
