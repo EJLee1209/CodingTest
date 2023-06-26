@@ -1,0 +1,13 @@
+//
+//  11654.swift
+//  CodingTest
+//
+//  Created by 이은재 on 2023/06/26.
+//
+
+import Foundation
+class Q11654{
+    static func solution() {
+        print(Int(UnicodeScalar(readLine()!)!.value))
+    }
+}
