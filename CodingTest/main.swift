@@ -138,4 +138,31 @@ import Foundation
 //Q5622.solution()
 
 //https://www.acmicpc.net/problem/11718
-Q11718.solution()
+//Q11718.solution()
+
+//MARK: - 심화 1단계
+//https://www.acmicpc.net/problem/25083
+Q25083.solution()
+
+//https://www.acmicpc.net/problem/3003
+//Q3003.solution()
+
+//https://www.acmicpc.net/problem/2444
+//Q2444.solution()
+
+//https://www.acmicpc.net/problem/10988
+//Q10988.solution()
+
+//https://www.acmicpc.net/problem/1157
+//Q1157.solution()
+
+//https://www.acmicpc.net/problem/2941
+//Q2941.solution()
+
+//https://www.acmicpc.net/problem/1316
+//Q1316.solution()
+
+//https://www.acmicpc.net/problem/25206
+//Q25206.solution()
+
+
