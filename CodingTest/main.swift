@@ -142,7 +142,7 @@ import Foundation
 
 //MARK: - 심화 1단계
 //https://www.acmicpc.net/problem/25083
-Q25083.solution()
+//Q25083.solution()
 
 //https://www.acmicpc.net/problem/3003
 //Q3003.solution()
@@ -165,4 +165,16 @@ Q25083.solution()
 //https://www.acmicpc.net/problem/25206
 //Q25206.solution()
 
+//MARK: - 2차원 배열
 
+//https://www.acmicpc.net/problem/2738
+//Q2738.solution()
+
+//https://www.acmicpc.net/problem/2566
+//Q2566.solution()
+
+//https://www.acmicpc.net/problem/10798
+//Q10798.solution()
+
+//https://www.acmicpc.net/problem/2563
+Q2563.solution()
