@@ -177,4 +177,14 @@ import Foundation
 //Q10798.solution()
 
 //https://www.acmicpc.net/problem/2563
-Q2563.solution()
+//Q2563.solution()
+
+//MARK: - 일반 수학 1
+//https://www.acmicpc.net/problem/2745
+//Q2745.solution()
+
+//https://www.acmicpc.net/problem/11005
+//Q11005.solution()
+
+//https://www.acmicpc.net/problem/2720
+Q2720.solution()
