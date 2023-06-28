@@ -187,4 +187,10 @@ import Foundation
 //Q11005.solution()
 
 //https://www.acmicpc.net/problem/2720
-Q2720.solution()
+//Q2720.solution()
+
+//https://www.acmicpc.net/problem/2903
+//Q2903.solution()
+
+//https://www.acmicpc.net/problem/2292
+Q2292.solution()
