@@ -35,7 +35,4 @@ class Q1193{
         }
         print(diag[diag.count - (sum-X) - 1])
     }
-    
-    
-    
 }
