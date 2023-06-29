@@ -193,4 +193,7 @@ import Foundation
 //Q2903.solution()
 
 //https://www.acmicpc.net/problem/2292
-Q2292.solution()
+//Q2292.solution()
+
+//https://www.acmicpc.net/problem/1193
+Q1193.solution()
