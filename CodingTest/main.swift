@@ -202,4 +202,24 @@ import Foundation
 //Q2869.solution()
 
 //https://www.acmicpc.net/problem/10757
-Q10757.solution()
+//Q10757.solution()
+
+//MARK: - 약수, 배수와 소수
+
+//https://www.acmicpc.net/problem/5086
+//Q5086.solution()
+
+//https://www.acmicpc.net/problem/2501
+//Q2501.solution()
+
+//https://www.acmicpc.net/problem/9506
+//Q9506.solution()
+
+//https://www.acmicpc.net/problem/1978
+//Q1978.solution()
+
+//https://www.acmicpc.net/problem/2581
+//Q2581.solution()
+
+//https://www.acmicpc.net/problem/11653
+Q11653.solution()
