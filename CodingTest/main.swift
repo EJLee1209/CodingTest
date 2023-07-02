@@ -237,4 +237,13 @@ import Foundation
 //Q15894.solution()
 
 //https://www.acmicpc.net/problem/9063
-Q9063.solution()
+//Q9063.solution()
+
+//https://www.acmicpc.net/problem/10101
+//Q10101.solution()
+
+//https://www.acmicpc.net/problem/5073
+//Q5073.solution()
+
+//https://www.acmicpc.net/problem/14215
+Q14215.solution()
