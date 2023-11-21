@@ -8,17 +8,15 @@
 import Foundation
 class Q10813{
     static func solution() {
-        let nm = readLine()!.split(separator: " ").map{ Int(String($0))! }
-        var basket = Array(repeating: 0, count: nm[0])
-        for i in 1...nm[0] {
-            basket[i-1] = i
+        let nm = readLine()!.split(separator: " ").map { Int(String($0))! }
+        let (n, m) = (nm[0], nm[1])
+        var basket = (1...n).map { $0 }
+
+        (0..<m).map { _ in
+            let ij = readLine()!.split(separator: " ").map { Int(String($0))! }
+            let (i,j) = (ij[0], ij[1])
+            basket.swapAt(i-1, j-1)
         }
-        for _ in 0..<nm[1] {
-            let ij = readLine()!.split(separator: " ").map{ Int(String($0))! }
-            let tmp = basket[ij[0]-1]
-            basket[ij[0]-1] = basket[ij[1]-1]
-            basket[ij[1]-1] = tmp
-        }
-        print(basket.map{ "\($0)" }.joined(separator: " "))
+        print(basket.map { String($0) }.joined(separator: " "))
     }
 }

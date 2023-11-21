@@ -18,5 +18,13 @@ class Q5597{
                 print(idx + 1)
             }
         }
+        
+//        var numbers: Set<Int> = .init(1...30)
+//        (0..<28).map { _ in
+//            numbers.remove(Int(readLine()!)!)
+//        }
+//        print(numbers.min()!)
+//        print(numbers.max()!)
+
     }
 }

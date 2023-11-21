@@ -31,13 +31,13 @@ class Q2444{
 //        }
         // 구글링한 코드
         // String(repeating:count:) 메서드를 사용하면 더 간단하게 풀이 가능
-        for i in 1...n {
-            let star = String(repeating: " ", count: n-i) + String(repeating:"*", count:2*i-1)
-            print(star)
+
+        for i in 0..<n {
+            print(String(repeating: " ", count: n-i-1) + String(repeating: "*", count: i*2+1))
         }
-        for i in 1...n-1 {
-            let star = String(repeating: " ",count:i) + String(repeating:"*",count:2*(n-i)-1)
-            print(star)
+
+        for i in 0..<n-1 {
+            print(String(repeating: " ", count: i+1) + String(repeating: "*", count: 2*(n-i)-3))
         }
     }
 }

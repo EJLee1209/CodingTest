@@ -9,14 +9,12 @@ import Foundation
 
 class Q10430{
     static func solution() {
-        let input = readLine()!.split(separator: " ").map{ Int($0)! }
-        let a = input[0]
-        let b = input[1]
-        let c = input[2]
-
-        print((a+b)%c)
-        print(((a%c) + (b%c))%c)
-        print((a*b)%c)
-        print(((a%c) * (b%c))%c)
+        let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+        let (A, B, C) = (input[0], input[1], input[2])
+        
+        print((A+B)%C)
+        print(((A%C) + (B%C))%C)
+        print((A*B)%C)
+        print(((A%C) * (B%C))%C)
     }
 }

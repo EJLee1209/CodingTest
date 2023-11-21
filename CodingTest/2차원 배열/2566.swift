@@ -8,21 +8,22 @@
 import Foundation
 class Q2566{
     static func solution() {
-        var matrix = [[Int]]()
-        for _ in 1...9 {
-            matrix.append(readLine()!.split(separator: " ").map{ Int(String($0))! })
-        }
         var maxValue = -1
-        var maxIdx = ""
+        var a = 0
+        var b = 0
         for i in 0..<9 {
-            for j in 0..<9 {
-                if matrix[i][j] > maxValue {
-                    maxValue = matrix[i][j]
-                    maxIdx = "\(i+1) \(j+1)"
+            let row = readLine()!.split(separator: " ").map { Int(String($0))! }
+            
+            for (j, value) in row.enumerated() {
+                if value > maxValue {
+                    maxValue = value
+                    a = i + 1
+                    b = j + 1
                 }
             }
         }
+
         print(maxValue)
-        print(maxIdx)
+        print(a, b)
     }
 }

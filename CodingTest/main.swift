@@ -246,4 +246,26 @@ import Foundation
 //Q5073.solution()
 
 //https://www.acmicpc.net/problem/14215
-Q14215.solution()
+//Q14215.solution()
+
+//MARK: - 시간복잡도
+//https://www.acmicpc.net/problem/24262
+//Q24262.solution()
+
+//https://www.acmicpc.net/problem/24263
+//Q24263.solution()
+
+//https://www.acmicpc.net/problem/24264
+//Q24264.solution()
+
+//https://www.acmicpc.net/problem/24265
+//Q24265.solution()
+
+//https://www.acmicpc.net/problem/24266
+//Q24266.solution()
+
+//https://www.acmicpc.net/problem/24267
+//Q24267.solution()
+
+//https://www.acmicpc.net/problem/24268
+Q24268.solution()

@@ -15,19 +15,21 @@ class Q10988{
         
         // 구글링한 코드
         // 내가 작성한 코드도 틀린건 아니지만, 문제 출제 의도와 다른 접근 방식인듯
-        let s = readLine()!.map{ String($0) }
+        let s = readLine()!
+
         var flag = true
-        
-        for i in 0..<s.count/2 { // 절반만 해도 됨
-            if s[i] != s[s.count-i-1] { // 앞 뒤 비교
+        for idx in 0..<s.count/2 {
+            if s[idx] != s[s.count-idx-1] {
                 flag.toggle()
                 break
             }
         }
-        if flag {
-            print(1)
-        } else {
-            print(0)
-        }
+        print(flag ? 1 : 0)
+    }
+}
+
+private extension String {
+    subscript(_ index: Int) -> Self {
+        return String(self[self.index(startIndex, offsetBy: index)])
     }
 }

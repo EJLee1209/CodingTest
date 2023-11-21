@@ -9,10 +9,6 @@ import Foundation
 class Q2903{
     static func solution() {
         let n = Int(readLine()!)!
-        var number = 2
-        for _ in 1...n {
-            number = number*2-1
-        }
-        print(number*number)
+        print(pow(pow(2, n) + 1, 2))
     }
 }

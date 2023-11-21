@@ -10,20 +10,16 @@ class Q2720{
     static func solution() {
         let t = Int(readLine()!)!
         for _ in 1...t {
-            var result : [Int] = []
-            var cent = Int(readLine()!)!
-            result.append(cent/25)
-            cent%=25
-            result.append(cent/10)
-            cent%=10
-            result.append(cent/5)
-            cent%=5
-            result.append(cent/1)
+            var money = Int(readLine()!)!
+            let quarter = money / 25
+            money %= 25
+            let dime = money / 10
+            money %= 10
+            let nickel = money / 5
+            money %= 5
+            let penny = money / 1
             
-            result.forEach {
-                print($0, terminator: " ")
-            }
-            print()
+            print(quarter, dime, nickel, penny)
         }
     }
 }
