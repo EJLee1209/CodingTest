@@ -268,4 +268,21 @@ import Foundation
 //Q24267.solution()
 
 //https://www.acmicpc.net/problem/24268
-Q24268.solution()
+//Q24268.solution()
+
+//MARK: - 완전탐색(Brute-Force)
+
+//https://www.acmicpc.net/problem/2798
+//Q2798.solution()
+
+//https://www.acmicpc.net/problem/2231
+//Q2231.solution()
+
+//https://www.acmicpc.net/problem/19532
+//Q19532.solution()
+
+//https://www.acmicpc.net/problem/1018
+//Q1018.solution()
+
+//https://www.acmicpc.net/problem/1436
+Q1436.solution()
