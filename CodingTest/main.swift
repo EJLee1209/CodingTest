@@ -288,4 +288,27 @@ import Foundation
 //Q1436.solution()
 
 //https://www.acmicpc.net/problem/2839
-Q2839.solution()
+//Q2839.solution()
+
+//MARK: - 정렬
+//https://www.acmicpc.net/problem/2720
+//Q2720.solution()
+
+//https://www.acmicpc.net/problem/2587
+//Q2587.solution()
+
+//https://www.acmicpc.net/problem/25305
+//Q25305.solution()
+
+//https://www.acmicpc.net/problem/2751
+//Q2751.solution()
+
+//https://www.acmicpc.net/problem/2475
+//Q2475.solution()
+
+//https://www.acmicpc.net/problem/2920
+//Q2920.solution()
+
+//https://www.acmicpc.net/problem/10250
+Q10250.solution()
+
