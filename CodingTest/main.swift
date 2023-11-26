@@ -310,5 +310,28 @@ import Foundation
 //Q2920.solution()
 
 //https://www.acmicpc.net/problem/10250
-Q10250.solution()
+//Q10250.solution()
 
+//https://www.acmicpc.net/problem/1181
+//Q1181.solution()
+
+//https://www.acmicpc.net/problem/1259
+//Q1259.solution()
+
+//https://www.acmicpc.net/problem/1654
+//Q1654.solution()
+
+//https://www.acmicpc.net/problem/1676
+//Q1676.solution()
+
+// https://www.acmicpc.net/problem/1874
+//Q1874.solution()
+
+//https://www.acmicpc.net/problem/1920
+//Q1920.solution()
+
+//https://www.acmicpc.net/problem/1929
+//Q1929.solution()
+
+//https://www.acmicpc.net/problem/2164
+Q2164.solution()
