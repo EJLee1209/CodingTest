@@ -312,6 +312,7 @@ import Foundation
 //https://www.acmicpc.net/problem/10250
 //Q10250.solution()
 
+//MARK: - Solved.ac: Class 2
 //https://www.acmicpc.net/problem/1181
 //Q1181.solution()
 
@@ -352,4 +353,52 @@ import Foundation
 //Q9012.solution()
 
 //https://www.acmicpc.net/problem/2775
-Q2775.solution()
+//Q2775.solution()
+
+//https://www.acmicpc.net/problem/4949
+//Q4949.solution()
+
+//https://www.acmicpc.net/problem/7568
+//Q7568.solution()
+
+//https://www.acmicpc.net/problem/10773
+//Q10773.solution()
+
+//https://www.acmicpc.net/problem/10814
+//Q10814.solution()
+
+//https://www.acmicpc.net/problem/10816
+//Q10816.solution()
+
+//https://www.acmicpc.net/problem/10828
+//Q10828.solution()
+
+//https://www.acmicpc.net/problem/10845
+//Q10845.solution()
+
+//https://www.acmicpc.net/problem/10866
+//Q10866.solution()
+
+//https://www.acmicpc.net/problem/11050
+//Q11050.solution()
+
+//https://www.acmicpc.net/problem/11650
+//Q11650.solution()
+
+//https://www.acmicpc.net/problem/11866
+//Q11866.solution()
+
+//https://www.acmicpc.net/problem/10989
+//Q10989.solution()
+
+//https://www.acmicpc.net/problem/11651
+//Q11651.solution()
+
+//https://www.acmicpc.net/problem/15829
+//Q15829.solution()
+
+//https://www.acmicpc.net/problem/18110
+//Q18110.solution()
+
+//https://www.acmicpc.net/problem/18111
+Q18111.solution()
