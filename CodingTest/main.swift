@@ -401,4 +401,20 @@ import Foundation
 //Q18110.solution()
 
 //https://www.acmicpc.net/problem/18111
-Q18111.solution()
+//Q18111.solution()
+
+//MARK: - Solved.ac: Class 3
+//https://www.acmicpc.net/problem/1003
+//Q1003.solution()
+
+//https://acmicpc.net/problem/1012
+//Q1012.solution()
+
+//https://www.acmicpc.net/problem/1074
+//Q1074.solution()
+
+//https://www.acmicpc.net/problem/1107
+//Q1107.solution()
+
+//https://acmicpc.net/problem/1260
+Q1260.solution()
