@@ -49,6 +49,9 @@
 		CF59C0E82A4872D30058C075 /* 10951.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59C0E72A4872D30058C075 /* 10951.swift */; };
 		CF5B18522A4D404F001A1EF0 /* 2869.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B18512A4D404F001A1EF0 /* 2869.swift */; };
 		CF5B18542A4D4964001A1EF0 /* 10757.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B18532A4D4964001A1EF0 /* 10757.swift */; };
+		CF622A012B2D593C00637521 /* Q1764.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF622A002B2D593C00637521 /* Q1764.swift */; };
+		CF622A032B2D5A8600637521 /* Q1927.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF622A022B2D5A8600637521 /* Q1927.swift */; };
+		CF622A052B2D6DB800637521 /* Q1931.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF622A042B2D6DB800637521 /* Q1931.swift */; };
 		CF683C1F2A4D1BDD00F120A2 /* 1193.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF683C1E2A4D1BDD00F120A2 /* 1193.swift */; };
 		CF6A95FB2B2173DD00F9AD25 /* Q10989.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A95FA2B2173DC00F9AD25 /* Q10989.swift */; };
 		CF6A95FD2B2174CB00F9AD25 /* Q11651.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A95FC2B2174CB00F9AD25 /* Q11651.swift */; };
@@ -203,6 +206,9 @@
 		CF59C0E72A4872D30058C075 /* 10951.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10951.swift; sourceTree = "<group>"; };
 		CF5B18512A4D404F001A1EF0 /* 2869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2869.swift; sourceTree = "<group>"; };
 		CF5B18532A4D4964001A1EF0 /* 10757.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10757.swift; sourceTree = "<group>"; };
+		CF622A002B2D593C00637521 /* Q1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1764.swift; sourceTree = "<group>"; };
+		CF622A022B2D5A8600637521 /* Q1927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1927.swift; sourceTree = "<group>"; };
+		CF622A042B2D6DB800637521 /* Q1931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1931.swift; sourceTree = "<group>"; };
 		CF683C1E2A4D1BDD00F120A2 /* 1193.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1193.swift; sourceTree = "<group>"; };
 		CF6A95FA2B2173DC00F9AD25 /* Q10989.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q10989.swift; sourceTree = "<group>"; };
 		CF6A95FC2B2174CB00F9AD25 /* Q11651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q11651.swift; sourceTree = "<group>"; };
@@ -616,6 +622,9 @@
 				CFDD93432B2C11F1004F77AB /* Q1541.swift */,
 				CFDD93452B2C1C9F004F77AB /* Q1620.swift */,
 				CFDD93472B2C1F5F004F77AB /* Q1697.swift */,
+				CF622A002B2D593C00637521 /* Q1764.swift */,
+				CF622A022B2D5A8600637521 /* Q1927.swift */,
+				CF622A042B2D6DB800637521 /* Q1931.swift */,
 			);
 			path = Class3;
 			sourceTree = "<group>";
@@ -725,6 +734,7 @@
 				CF6F23612B0F5C320073BEAE /* Q10250.swift in Sources */,
 				CF92EBDB2A4A72170017C0EA /* 2444.swift in Sources */,
 				CF00CA572A4B27A10005AA09 /* 10798.swift in Sources */,
+				CF622A012B2D593C00637521 /* Q1764.swift in Sources */,
 				CFB2415A2A46E94C008C8B1D /* 2753.swift in Sources */,
 				CF8D382D2A4949F400E39288 /* 10813.swift in Sources */,
 				CF00CA532A4B221A0005AA09 /* 2738.swift in Sources */,
@@ -761,6 +771,7 @@
 				CFB50CD02B202937001F28B4 /* Q10845.swift in Sources */,
 				CF59C0D82A4869D30058C075 /* 2739.swift in Sources */,
 				CFA9C9212A4FC12200F673AB /* 27323.swift in Sources */,
+				CF622A032B2D5A8600637521 /* Q1927.swift in Sources */,
 				CFA1A7A42B216A0E00F0472E /* Q11866.swift in Sources */,
 				CF9F96D42B2B008400C99D2C /* Q1463.swift in Sources */,
 				CFB2414D2A46E28C008C8B1D /* 10430.swift in Sources */,
@@ -821,6 +832,7 @@
 				CFD5085E2B1ED4240080DF2F /* Q2609.swift in Sources */,
 				CF683C1F2A4D1BDD00F120A2 /* 1193.swift in Sources */,
 				CFA9C9292A4FCEB200F673AB /* 9063.swift in Sources */,
+				CF622A052B2D6DB800637521 /* Q1931.swift in Sources */,
 				CF9F96D02B2987EA00C99D2C /* Q1260.swift in Sources */,
 				CF9F96CE2B29722C00C99D2C /* Q1107.swift in Sources */,
 				CFB8F2072B0CB7420088B598 /* Q24267.swift in Sources */,
