@@ -441,4 +441,19 @@ import Foundation
 //Q1927.solution()
 
 //https://www.acmicpc.net/problem/1931
-Q1931.solution()
+//Q1931.solution()
+
+//https://www.acmicpc.net/problem/2178
+//Q2178.solution()
+
+//https://www.acmicpc.net/problem/2579
+//Q2579.solution()
+
+//https://www.acmicpc.net/problem/2606
+//Q2606.solution()
+
+//https://www.acmicpc.net/problem/2630
+//Q2630.solution()
+
+//https://www.acmicpc.net/problem/2667
+Q2667.solution()
