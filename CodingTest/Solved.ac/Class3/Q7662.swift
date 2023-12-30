@@ -1,13 +1,13 @@
 //
-//  Q1927.swift
+//  Q7662.swift
 //  CodingTest
 //
-//  Created by 이은재 on 12/16/23.
-//
+//  Created by 이은재 on 12/26/23.
+//https://www.acmicpc.net/problem/7662
 
 import Foundation
 
-struct Q1927: Template {
+struct Q7662: Template {
     struct MinHeap<T: Comparable> {
         private var array: [T] = []
         var isEmpty: Bool { return array.count <= 1 }
@@ -88,22 +88,78 @@ struct Q1927: Template {
             }
         }
     }
+
     
     static func solution() {
-       
-        let n = Int(readLine()!)!
-        var heap = MinHeap<Int>()
-
-        for _ in 0..<n {
-            let x = Int(readLine()!)!
-            if x == 0 {
-                if let value = heap.remove() {
-                    print(value)
-                } else {
-                    print(0)
+        let t = Int(readLine()!)!
+        
+        for _ in 0..<t {
+            let k = Int(readLine()!)!
+            var minHeap = MinHeap<Int>()
+            var maxHeap = MinHeap<Int>()
+            var countDict: [Int: Int] = [:]
+            
+            for _ in 0..<k {
+                let input = readLine()!.split(separator: " ")
+                let op = input[0]
+                let n = Int(input[1])!
+                
+                switch op {
+                    /// I : 삽입 연산
+                    /// 최소힙과 최대힙에 모두 삽입
+                    /// 삽입한 값 n에 대한 counting
+                case "I":
+                    if let _ = countDict[n] {
+                        countDict[n]! += 1
+                    } else {
+                        countDict[n] = 1
+                    }
+                    minHeap.insert(n)
+                    maxHeap.insert(-n)
+                    /// D: 삭제 연산
+                case "D":
+                    if n == -1 {
+                        /// D -1 : 최솟값 삭제
+                        /// 1. 최소힙에서 값을 삭제
+                        /// 2. 삭제한 값의 count가 없다면, 이미 최댓값 삭제 연산을 통해 삭제된 값이므로 1번 부터 다시 반복
+                        /// 3. 삭제한 값의 count가 존재한다면, count를 1 감소, 감소된 count가 0이라면 해당 count를 제거
+                        while !minHeap.isEmpty {
+                            let c = minHeap.remove()!
+                            if let count = countDict[c] {
+                                countDict[c]! -= 1
+                                if count == 1 {
+                                    countDict.removeValue(forKey: c)
+                                }
+                                break
+                            }
+                            
+                        }
+                    } else {
+                        /// D 1 : 최댓값 삭제
+                        /// 1. 최대힙에서 값을 삭제
+                        /// 2. 삭제한 값의 count가 없다면, 이미 최솟값 삭제 연산을 통해 삭제된 값이므로 1번 부터 다시 반복
+                        /// 3. 삭제한 값의 count가 존재한다면, count를 1 감소, 감소된 count가 0이라면 해당 count를 제거
+                        while !maxHeap.isEmpty {
+                            let c = -maxHeap.remove()!
+                            if let count = countDict[c] {
+                                countDict[c]! -= 1
+                                if count == 1 {
+                                    countDict.removeValue(forKey: c)
+                                }
+                                break
+                            }
+                        }
+                    }
+                default:
+                    break
                 }
+            }
+            
+            if countDict.isEmpty {
+                print("EMPTY")
             } else {
-                heap.insert(x)
+                let result = countDict.keys.sorted()
+                print(result.last!, result.first!)
             }
         }
     }

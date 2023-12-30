@@ -7,40 +7,40 @@
 
 import Foundation
 
-fileprivate struct Queue {
-    private var inBox: [(Int, Int)] = []
-    private var outBox: [(Int, Int)] = []
-    
-    var isEmpty: Bool {
-        return inBox.isEmpty && outBox.isEmpty
-    }
-    
-    var count: Int {
-        return inBox.count + outBox.count
-    }
-    
-    var maxValue: Int {
-        let inBoxMaxValue = inBox.max { $0.0 < $1.0 }?.0
-        let outBoxMaxValue = outBox.max { $0.0 < $1.0 }?.0
+struct Q1966: Template {
+    fileprivate struct Queue {
+        private var inBox: [(Int, Int)] = []
+        private var outBox: [(Int, Int)] = []
         
-        return max(inBoxMaxValue ?? 0 , outBoxMaxValue ?? 0)
-    }
-    
-    mutating func enqueue(_ priority: Int, _ index: Int) {
-        inBox.append((priority, index))
-    }
-
-    mutating func dequeue() -> (Int, Int)? {
-        if outBox.isEmpty {
-            outBox.append(contentsOf: inBox.reversed())
-            inBox.removeAll()
+        var isEmpty: Bool {
+            return inBox.isEmpty && outBox.isEmpty
         }
         
-        return outBox.isEmpty ? nil : outBox.removeLast()
-    }
-}
+        var count: Int {
+            return inBox.count + outBox.count
+        }
+        
+        var maxValue: Int {
+            let inBoxMaxValue = inBox.max { $0.0 < $1.0 }?.0
+            let outBoxMaxValue = outBox.max { $0.0 < $1.0 }?.0
+            
+            return max(inBoxMaxValue ?? 0 , outBoxMaxValue ?? 0)
+        }
+        
+        mutating func enqueue(_ priority: Int, _ index: Int) {
+            inBox.append((priority, index))
+        }
 
-struct Q1966: Template {
+        mutating func dequeue() -> (Int, Int)? {
+            if outBox.isEmpty {
+                outBox.append(contentsOf: inBox.reversed())
+                inBox.removeAll()
+            }
+            
+            return outBox.isEmpty ? nil : outBox.removeLast()
+        }
+    }
+    
     static func solution() {
         let t = Int(readLine()!)!
         
