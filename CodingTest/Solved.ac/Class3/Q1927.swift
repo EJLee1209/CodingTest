@@ -3,7 +3,7 @@
 //  CodingTest
 //
 //  Created by 이은재 on 12/16/23.
-//
+//https://www.acmicpc.net/problem/1927
 
 import Foundation
 
@@ -65,11 +65,7 @@ struct Q1927: Template {
                 if array[leftChildIdx] > array[parentIndex] && array[rightChildIdx] > array[parentIndex] {
                     return .none
                 }
-                /// 3-2. 자식들이 부모 노드보다 값이 작은 경우
-                if array[leftChildIdx] < array[parentIndex] && array[rightChildIdx] < array[parentIndex] {
-                    return array[leftChildIdx] > array[rightChildIdx] ? .right(index: rightChildIdx) : .left(index: leftChildIdx)
-                }
-                /// 3-3. 자식들 중 하나만 부모 노드보다 값이 작은 경우
+                /// 3-2. 자식들 중 하나라도 부모 노드보다 값이 작은 경우
                 if array[parentIndex] > array[leftChildIdx] || array[parentIndex] > array[rightChildIdx] {
                     return array[leftChildIdx] > array[rightChildIdx] ? .right(index: rightChildIdx) : .left(index: leftChildIdx)
                 }
