@@ -548,6 +548,8 @@ import Foundation
 //https://www.acmicpc.net/problem/11723
 //Q11723.solution()
 
+//MARK: - Solved.ac: Class 4
+
 //https://www.acmicpc.net/problem/1043
 //Q1043.solution()
 
@@ -559,3 +561,12 @@ import Foundation
 
 //https://www.acmicpc.net/problem/1238
 //Q1238.solution()
+
+//https://www.acmicpc.net/problem/1504
+//Q1504.solution()
+
+//https://www.acmicpc.net/problem/1629
+//Q1629.solution()
+
+//https://www.acmicpc.net/problem/1753
+Q1753.solution()
