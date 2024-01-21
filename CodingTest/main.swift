@@ -593,4 +593,7 @@ import Foundation
 //Q1991.solution()
 
 //https://www.acmicpc.net/problem/2096
-Q2096.solution()
+//Q2096.solution()
+
+//https://www.acmicpc.net/problem/2206
+Q2206.solution()
