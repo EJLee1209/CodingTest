@@ -602,5 +602,7 @@ import Foundation
 //Q1600.solution()
 
 //https://www.acmicpc.net/problem/2638
-Q2638.solution()
+//Q2638.solution()
+
+Q2573.solution()
 
