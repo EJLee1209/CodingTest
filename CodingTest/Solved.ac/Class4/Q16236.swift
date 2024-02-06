@@ -42,6 +42,7 @@ struct Q16236: Template {
         }
         
         while eatFish() {}
+        print(answer)
         
         func eatFish() -> Bool {
             let dist = bfs(shark: shark)
@@ -102,7 +103,5 @@ struct Q16236: Template {
             
             return dist
         }
-        
-        print(answer)
     }
 }
