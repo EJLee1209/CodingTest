@@ -79,6 +79,5 @@ struct Q17070: Template {
                 dfs(pipe: nextPipe)
             }
         }
-        
     }
 }
