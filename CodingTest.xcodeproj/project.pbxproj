@@ -214,6 +214,7 @@
 		CFDF77742B21BFB700141D46 /* Q18111.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF77732B21BFB700141D46 /* Q18111.swift */; };
 		CFE0D9AB2B26BE9E0045B6A5 /* Q1003.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0D9AA2B26BE9E0045B6A5 /* Q1003.swift */; };
 		CFE0D9AD2B26C7BD0045B6A5 /* Q1012.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0D9AC2B26C7BD0045B6A5 /* Q1012.swift */; };
+		CFE8501C2B82F7E30024E3C6 /* Q15663.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8501B2B82F7E30024E3C6 /* Q15663.swift */; };
 		CFEEE13B2A51180800231172 /* 10101.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEEE13A2A51180800231172 /* 10101.swift */; };
 		CFEEE13D2A51194700231172 /* 5073.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEEE13C2A51194700231172 /* 5073.swift */; };
 		CFEEE13F2A511AF400231172 /* 14215.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEEE13E2A511AF400231172 /* 14215.swift */; };
@@ -448,6 +449,7 @@
 		CFDF77732B21BFB700141D46 /* Q18111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q18111.swift; sourceTree = "<group>"; };
 		CFE0D9AA2B26BE9E0045B6A5 /* Q1003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1003.swift; sourceTree = "<group>"; };
 		CFE0D9AC2B26C7BD0045B6A5 /* Q1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1012.swift; sourceTree = "<group>"; };
+		CFE8501B2B82F7E30024E3C6 /* Q15663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q15663.swift; sourceTree = "<group>"; };
 		CFEEE13A2A51180800231172 /* 10101.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10101.swift; sourceTree = "<group>"; };
 		CFEEE13C2A51194700231172 /* 5073.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5073.swift; sourceTree = "<group>"; };
 		CFEEE13E2A511AF400231172 /* 14215.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14215.swift; sourceTree = "<group>"; };
@@ -578,6 +580,7 @@
 				CF6F23642B0F5FE90073BEAE /* Class2 */,
 				CFE0D9A92B26BE950045B6A5 /* Class3 */,
 				CF7B99C02B4910FC00737A76 /* Class4 */,
+				CFE8501B2B82F7E30024E3C6 /* Q15663.swift */,
 			);
 			path = Solved.ac;
 			sourceTree = "<group>";
@@ -1100,6 +1103,7 @@
 				CFB241512A46E356008C8B1D /* 2588.swift in Sources */,
 				CFFF7F782B4268EB004770CE /* Q11727.swift in Sources */,
 				CF892F322B411DB500043A3C /* Q11403.swift in Sources */,
+				CFE8501C2B82F7E30024E3C6 /* Q15663.swift in Sources */,
 				CF4196942B3BD04D0021E545 /* Q9019.swift in Sources */,
 				CFB50CC42B201B50001F28B4 /* Q4949.swift in Sources */,
 				CFA32E0F2B368B0500385847 /* Q18870.swift in Sources */,
