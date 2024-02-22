@@ -212,6 +212,7 @@
 		CFDD93442B2C11F1004F77AB /* Q1541.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD93432B2C11F1004F77AB /* Q1541.swift */; };
 		CFDD93462B2C1C9F004F77AB /* Q1620.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD93452B2C1C9F004F77AB /* Q1620.swift */; };
 		CFDD93482B2C1F5F004F77AB /* Q1697.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD93472B2C1F5F004F77AB /* Q1697.swift */; };
+		CFDEF2DC2B86E90800E97C82 /* Q1240.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDEF2DB2B86E90800E97C82 /* Q1240.swift */; };
 		CFDF77722B21BD9700141D46 /* Q18110.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF77712B21BD9700141D46 /* Q18110.swift */; };
 		CFDF77742B21BFB700141D46 /* Q18111.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF77732B21BFB700141D46 /* Q18111.swift */; };
 		CFE0D9AB2B26BE9E0045B6A5 /* Q1003.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0D9AA2B26BE9E0045B6A5 /* Q1003.swift */; };
@@ -449,6 +450,7 @@
 		CFDD93432B2C11F1004F77AB /* Q1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1541.swift; sourceTree = "<group>"; };
 		CFDD93452B2C1C9F004F77AB /* Q1620.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1620.swift; sourceTree = "<group>"; };
 		CFDD93472B2C1F5F004F77AB /* Q1697.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1697.swift; sourceTree = "<group>"; };
+		CFDEF2DB2B86E90800E97C82 /* Q1240.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1240.swift; sourceTree = "<group>"; };
 		CFDF77712B21BD9700141D46 /* Q18110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q18110.swift; sourceTree = "<group>"; };
 		CFDF77732B21BFB700141D46 /* Q18111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q18111.swift; sourceTree = "<group>"; };
 		CFE0D9AA2B26BE9E0045B6A5 /* Q1003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1003.swift; sourceTree = "<group>"; };
@@ -682,6 +684,7 @@
 				CF52AEE82B76159500D23996 /* Q17144.swift */,
 				CF0E71172B8446C3005153F9 /* Q11444.swift */,
 				CF797CB72B85907C00F91B52 /* Q1011.swift */,
+				CFDEF2DB2B86E90800E97C82 /* Q1240.swift */,
 			);
 			path = Class4;
 			sourceTree = "<group>";
@@ -966,6 +969,7 @@
 				CFE0D9AB2B26BE9E0045B6A5 /* Q1003.swift in Sources */,
 				CFB8F2012B0CB3210088B598 /* Q24264.swift in Sources */,
 				CF56CBDD2B314B2300BA927C /* Q2805.swift in Sources */,
+				CFDEF2DC2B86E90800E97C82 /* Q1240.swift in Sources */,
 				CF7AC5E92B3071590000D971 /* Q2630.swift in Sources */,
 				CF0C8D2C2A4E6D02007F3C86 /* 2501.swift in Sources */,
 				CF62A9E32B50E3740020D4C4 /* Q1504.swift in Sources */,

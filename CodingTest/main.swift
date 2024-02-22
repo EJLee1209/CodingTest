@@ -680,4 +680,7 @@ import Foundation
 //Q11444.solution()
 
 //https://www.acmicpc.net/problem/1011
-Q1011.solution()
+//Q1011.solution()
+
+//https://www.acmicpc.net/problem/1240
+Q1240.solution()
