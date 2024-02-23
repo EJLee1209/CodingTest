@@ -35,6 +35,7 @@
 		CF1BCAA02B3D266C0056E0B1 /* Q9375.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1BCA9F2B3D266C0056E0B1 /* Q9375.swift */; };
 		CF1BCAA22B3D29630056E0B1 /* Q9461.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1BCAA12B3D29630056E0B1 /* Q9461.swift */; };
 		CF1CAB1B2B1EDDD900C4C3A0 /* Q2775.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CAB1A2B1EDDD900C4C3A0 /* Q2775.swift */; };
+		CF207FDB2B8838C9008AC139 /* Q11729.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF207FDA2B8838C9008AC139 /* Q11729.swift */; };
 		CF20B7142A4C8256007859F9 /* 2292.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF20B7132A4C8256007859F9 /* 2292.swift */; };
 		CF219C212B4F958400A96E7C /* Q1238.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF219C202B4F958400A96E7C /* Q1238.swift */; };
 		CF24BC2C2B58DA0300F47DAF /* Q1967.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24BC2B2B58DA0300F47DAF /* Q1967.swift */; };
@@ -272,6 +273,7 @@
 		CF1BCA9F2B3D266C0056E0B1 /* Q9375.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q9375.swift; sourceTree = "<group>"; };
 		CF1BCAA12B3D29630056E0B1 /* Q9461.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q9461.swift; sourceTree = "<group>"; };
 		CF1CAB1A2B1EDDD900C4C3A0 /* Q2775.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2775.swift; sourceTree = "<group>"; };
+		CF207FDA2B8838C9008AC139 /* Q11729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q11729.swift; sourceTree = "<group>"; };
 		CF20B7132A4C8256007859F9 /* 2292.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2292.swift; sourceTree = "<group>"; };
 		CF219C202B4F958400A96E7C /* Q1238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1238.swift; sourceTree = "<group>"; };
 		CF24BC2B2B58DA0300F47DAF /* Q1967.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1967.swift; sourceTree = "<group>"; };
@@ -522,6 +524,14 @@
 			path = "일반 수학1";
 			sourceTree = "<group>";
 		};
+		CF207FDC2B884A7A008AC139 /* GoldV */ = {
+			isa = PBXGroup;
+			children = (
+				CF207FDA2B8838C9008AC139 /* Q11729.swift */,
+			);
+			path = GoldV;
+			sourceTree = "<group>";
+		};
 		CF58B8E62A49BE3200966E7A /* 문자열 */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,6 +592,7 @@
 		CF6F235A2B0F5AC90073BEAE /* Solved.ac */ = {
 			isa = PBXGroup;
 			children = (
+				CF207FDC2B884A7A008AC139 /* GoldV */,
 				CF6F235B2B0F5AD70073BEAE /* Class1 */,
 				CF6F23642B0F5FE90073BEAE /* Class2 */,
 				CFE0D9A92B26BE950045B6A5 /* Class3 */,
@@ -1081,6 +1092,7 @@
 				CF58B8EE2A49C13700966E7A /* 11654.swift in Sources */,
 				CFDB3DF02B33E62600C88D77 /* Q11659.swift in Sources */,
 				CF59C0E62A4870830058C075 /* 10952.swift in Sources */,
+				CF207FDB2B8838C9008AC139 /* Q11729.swift in Sources */,
 				CF7F92FF2B3FC36D0083D057 /* Q11279.swift in Sources */,
 				CF4DD7A72B708233004C28B1 /* Q16236.swift in Sources */,
 				CF0BC1392B71C8ED00690102 /* Q17070.swift in Sources */,
