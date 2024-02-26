@@ -45,6 +45,7 @@
 		CF29BD082B1226670013F84B /* Q1929.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF29BD072B1226670013F84B /* Q1929.swift */; };
 		CF3211CB2B28627300E1048A /* Q1074.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3211CA2B28627300E1048A /* Q1074.swift */; };
 		CF3822FA2B4CF2BE003D123A /* Q1149.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3822F92B4CF2BE003D123A /* Q1149.swift */; };
+		CF3E6E582B8C33C40075D22A /* Q2293.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E6E572B8C33C40075D22A /* Q2293.swift */; };
 		CF3FAE192B5A1B60000E90E1 /* Q1987.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3FAE182B5A1B60000E90E1 /* Q1987.swift */; };
 		CF4196942B3BD04D0021E545 /* Q9019.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4196932B3BD04D0021E545 /* Q9019.swift */; };
 		CF4D9B492B47B12500231455 /* Q20529.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D9B482B47B12500231455 /* Q20529.swift */; };
@@ -285,6 +286,7 @@
 		CF29BD072B1226670013F84B /* Q1929.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1929.swift; sourceTree = "<group>"; };
 		CF3211CA2B28627300E1048A /* Q1074.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1074.swift; sourceTree = "<group>"; };
 		CF3822F92B4CF2BE003D123A /* Q1149.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1149.swift; sourceTree = "<group>"; };
+		CF3E6E572B8C33C40075D22A /* Q2293.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2293.swift; sourceTree = "<group>"; };
 		CF3FAE182B5A1B60000E90E1 /* Q1987.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1987.swift; sourceTree = "<group>"; };
 		CF4196932B3BD04D0021E545 /* Q9019.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q9019.swift; sourceTree = "<group>"; };
 		CF4D9B482B47B12500231455 /* Q20529.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q20529.swift; sourceTree = "<group>"; };
@@ -533,6 +535,7 @@
 			children = (
 				CFF2724D2B8AE00500880825 /* Q14503.swift */,
 				CF207FDA2B8838C9008AC139 /* Q11729.swift */,
+				CF3E6E572B8C33C40075D22A /* Q2293.swift */,
 			);
 			path = GoldV;
 			sourceTree = "<group>";
@@ -1159,6 +1162,7 @@
 				CFB2415C2A46EA0F008C8B1D /* 14681.swift in Sources */,
 				CFAD826B2A4ABEEC00E1B264 /* 25206.swift in Sources */,
 				CFB8F2032B0CB3B40088B598 /* Q24265.swift in Sources */,
+				CF3E6E582B8C33C40075D22A /* Q2293.swift in Sources */,
 				CF6F23632B0F5FDE0073BEAE /* Q1181.swift in Sources */,
 				CFEEE13D2A51194700231172 /* 5073.swift in Sources */,
 				CFB8F2052B0CB6CC0088B598 /* Q24266.swift in Sources */,
