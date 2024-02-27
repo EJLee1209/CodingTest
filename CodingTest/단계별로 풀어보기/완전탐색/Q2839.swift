@@ -19,5 +19,20 @@ struct Q2839: Template {
             }
         }
         print(result)
+ 
+        // dp 풀이
+//        let INF = Int.max / 2
+//        let n = Int(readLine()!)!
+//        var dp = Array(repeating: INF, count: n + 1)
+//        var baskets = [3, 5]
+//        dp[0] = 0
+//
+//        for basket in baskets where basket <= n {
+//            for j in basket...n {
+//                dp[j] = min(dp[j - basket] + 1, dp[j])
+//            }
+//        }
+//
+//        print(dp[n] == INF ? -1 : dp[n])
     }
 }
