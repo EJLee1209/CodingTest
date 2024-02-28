@@ -222,6 +222,7 @@
 		CFE0D9AD2B26C7BD0045B6A5 /* Q1012.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0D9AC2B26C7BD0045B6A5 /* Q1012.swift */; };
 		CFE8501C2B82F7E30024E3C6 /* Q15663.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8501B2B82F7E30024E3C6 /* Q15663.swift */; };
 		CFEA2E732B8D862B009AC2DE /* Q1912.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA2E722B8D862B009AC2DE /* Q1912.swift */; };
+		CFEA2E882B8ECF54009AC2DE /* Q1475.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA2E872B8ECF54009AC2DE /* Q1475.swift */; };
 		CFEEE13B2A51180800231172 /* 10101.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEEE13A2A51180800231172 /* 10101.swift */; };
 		CFEEE13D2A51194700231172 /* 5073.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEEE13C2A51194700231172 /* 5073.swift */; };
 		CFEEE13F2A511AF400231172 /* 14215.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEEE13E2A511AF400231172 /* 14215.swift */; };
@@ -465,6 +466,7 @@
 		CFE0D9AC2B26C7BD0045B6A5 /* Q1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1012.swift; sourceTree = "<group>"; };
 		CFE8501B2B82F7E30024E3C6 /* Q15663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q15663.swift; sourceTree = "<group>"; };
 		CFEA2E722B8D862B009AC2DE /* Q1912.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1912.swift; sourceTree = "<group>"; };
+		CFEA2E872B8ECF54009AC2DE /* Q1475.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1475.swift; sourceTree = "<group>"; };
 		CFEEE13A2A51180800231172 /* 10101.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10101.swift; sourceTree = "<group>"; };
 		CFEEE13C2A51194700231172 /* 5073.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5073.swift; sourceTree = "<group>"; };
 		CFEEE13E2A511AF400231172 /* 14215.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14215.swift; sourceTree = "<group>"; };
@@ -602,6 +604,7 @@
 		CF6F235A2B0F5AC90073BEAE /* Solved.ac */ = {
 			isa = PBXGroup;
 			children = (
+				CFEA2E862B8ECF4D009AC2DE /* 구현 */,
 				CFEA2E712B8D8621009AC2DE /* DP */,
 				CF207FDC2B884A7A008AC139 /* GoldV */,
 				CF6F235B2B0F5AD70073BEAE /* Class1 */,
@@ -908,6 +911,15 @@
 			path = DP;
 			sourceTree = "<group>";
 		};
+		CFEA2E862B8ECF4D009AC2DE /* 구현 */ = {
+			isa = PBXGroup;
+			children = (
+				CFEA2E872B8ECF54009AC2DE /* Q1475.swift */,
+			);
+			name = "구현";
+			path = "구현";
+			sourceTree = "<group>";
+		};
 		CFF77F062B0DD475003A95C0 /* 완전탐색 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1169,6 +1181,7 @@
 				CFA1A7A02B20811A00F0472E /* Q11050.swift in Sources */,
 				CFC091FF2B3A85CE00260E78 /* Q7662.swift in Sources */,
 				CF00CA592A4B2EEC0005AA09 /* 2563.swift in Sources */,
+				CFEA2E882B8ECF54009AC2DE /* Q1475.swift in Sources */,
 				CFEEE13F2A511AF400231172 /* 14215.swift in Sources */,
 				CFB97D782B0E349200DA2736 /* Q2839.swift in Sources */,
 				CFB2415C2A46EA0F008C8B1D /* 14681.swift in Sources */,
