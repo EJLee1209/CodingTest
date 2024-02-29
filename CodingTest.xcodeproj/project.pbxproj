@@ -607,12 +607,13 @@
 			isa = PBXGroup;
 			children = (
 				CFEA2E862B8ECF4D009AC2DE /* 구현 */,
-				CFEA2E712B8D8621009AC2DE /* DP */,
-				CF207FDC2B884A7A008AC139 /* GoldV */,
 				CF6F235B2B0F5AD70073BEAE /* Class1 */,
 				CF6F23642B0F5FE90073BEAE /* Class2 */,
 				CFE0D9A92B26BE950045B6A5 /* Class3 */,
 				CF7B99C02B4910FC00737A76 /* Class4 */,
+				CFC347A02B90441E00DF1DD5 /* Class5 */,
+				CFEA2E712B8D8621009AC2DE /* DP */,
+				CF207FDC2B884A7A008AC139 /* GoldV */,
 			);
 			path = Solved.ac;
 			sourceTree = "<group>";
@@ -832,6 +833,14 @@
 			path = "시간복잡도";
 			sourceTree = "<group>";
 		};
+		CFC347A02B90441E00DF1DD5 /* Class5 */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3479D2B90224200DF1DD5 /* Q1005.swift */,
+			);
+			path = Class5;
+			sourceTree = "<group>";
+		};
 		CFCBA60D2A4873B6003236EE /* 1차원 배열 */ = {
 			isa = PBXGroup;
 			children = (
@@ -909,7 +918,6 @@
 			isa = PBXGroup;
 			children = (
 				CFEA2E722B8D862B009AC2DE /* Q1912.swift */,
-				CFC3479D2B90224200DF1DD5 /* Q1005.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
