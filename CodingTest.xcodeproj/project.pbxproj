@@ -614,14 +614,15 @@
 		CF6F235A2B0F5AC90073BEAE /* Solved.ac */ = {
 			isa = PBXGroup;
 			children = (
-				CF7FF2F92B96BFFD007E3A8C /* 그래프 탐색 */,
 				CFEA2E862B8ECF4D009AC2DE /* 구현 */,
+				CF7FF2F92B96BFFD007E3A8C /* 그래프 탐색 */,
+				CFA415772B996BD600A5C4EF /* 백트래킹 */,
+				CFEA2E712B8D8621009AC2DE /* DP */,
 				CF6F235B2B0F5AD70073BEAE /* Class1 */,
 				CF6F23642B0F5FE90073BEAE /* Class2 */,
 				CFE0D9A92B26BE950045B6A5 /* Class3 */,
 				CF7B99C02B4910FC00737A76 /* Class4 */,
 				CFC347A02B90441E00DF1DD5 /* Class5 */,
-				CFEA2E712B8D8621009AC2DE /* DP */,
 				CF207FDC2B884A7A008AC139 /* GoldV */,
 			);
 			path = Solved.ac;
@@ -751,6 +752,15 @@
 			);
 			name = "심화1단계";
 			path = "심화1";
+			sourceTree = "<group>";
+		};
+		CFA415772B996BD600A5C4EF /* 백트래킹 */ = {
+			isa = PBXGroup;
+			children = (
+				CFA415752B996A1700A5C4EF /* Q14501.swift */,
+			);
+			name = "백트래킹";
+			path = "백트래킹";
 			sourceTree = "<group>";
 		};
 		CFA9C91F2A4FC0F500F673AB /* 기하-직사각형과 삼각형 */ = {
@@ -938,7 +948,6 @@
 			children = (
 				CFEA2E722B8D862B009AC2DE /* Q1912.swift */,
 				CF369B922B9574680025DDE1 /* Q2156.swift */,
-				CFA415752B996A1700A5C4EF /* Q14501.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
